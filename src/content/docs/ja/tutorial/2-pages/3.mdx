@@ -207,11 +207,11 @@ HTMLファイルであればAstro言語として有効です。しかし、Astro
     そして、ブラウザタブのライブプレビューから、ページに表示されている内容を確認します。
 
     ```astro title="src/pages/about.astro" /:|&&/ "?"
-    {happy && <p>I am happy to be learning Astro! Astroを学べて幸せです！</p>}
+    {happy && <p>Astroを学べて幸せです！</p>}
 
-    {finished && <p>I finished this tutorial! このチュートリアルを終えました！</p>}
+    {finished && <p>このチュートリアルを終えました！</p>}
 
-    {goal === 3 ? <p>My goal is to finish in 3 days. 3日で終えるのが目標です。</p> : <p>My goal is not 3 days. 3日が目標ではありません。</p>}
+    {goal === 3 ? <p>3日で終えるのが目標です。</p> : <p>3日が目標ではありません。</p>}
     ```
 
 3. 作業を進める前に、変更をGitHubにコミットします。作業を保存してウェブサイトを更新したいときは、常にこれをおこなうようにしましょう。
